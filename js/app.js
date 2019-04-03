@@ -6,6 +6,7 @@ if(intro){
     //Where did i work Question
     var myJob = prompt('Did i work in the navy?');
     myJob === myJob.toUpperCase;
+    console.log('Did i work in the navy?');
     if(myJob === 'Y'){
         alert('Wrong Answer Sorry');
     } else if(myJob === 'N'){
@@ -18,6 +19,7 @@ if(intro){
     //What is my age question
     var myAge = prompt('Is my age 22');
     myAge === myAge.toUpperCase;
+    console.log('Is my age 22');
     if(myAge === 'Y'){
         alert('Good job you guessed right!');
         count++;
@@ -30,6 +32,7 @@ if(intro){
     //Do i love tequila question
     var myLoveForTequila = prompt('Do i love tequila?');
     myLoveForTequila === myLoveForTequila.toUpperCase;
+    console.log('Do i love tequila?');
     if(myLoveForTequila === 'Y'){
         alert("Of course who doesn't love tequila");
         count++;
@@ -42,6 +45,7 @@ if(intro){
     //Allergy question
     var myAllergy = prompt('Am I allergic to anything?');
     myAllergy === myAllergy.toUpperCase;
+    console.log('Am I allergic to anything?');
     if(myAllergy === 'Y'){
         alert('Correct im allergic to mosquitos');
         count++;
@@ -54,6 +58,7 @@ if(intro){
     //Did i go to college question
     var myEducation = prompt('Did i go to college?');
     myEducation === myEducation.toUpperCase;
+    console.log('Did i go to college?');
     if(myEducation === 'Y'){
         alert('Correct but i dropped out.');
         count++;
@@ -62,8 +67,10 @@ if(intro){
     } else{
         alert('Sorry but you didnt follow my instructions please only answer with\
              Y and N.');
-    }
+     }
+    
 }
-alert('Congrats you got ' + count + ' out of 5 correct Congrats!')
+alert('Congrats you got ' + count + ' out of 5 correct Congrats!');
+
 
     

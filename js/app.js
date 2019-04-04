@@ -2,7 +2,7 @@
 //Confirming that the user wants to play the game
 var correctAnswerCount = 0 //counts the number of times you get an answer correct
 // var intro = confirm('Quick get ready want to play guessing game? Only Answer with Y and N');
-
+// fdjsalkfasd
 
 var myJob = function (){
 var x = prompt('Did i work in the navy?').toUpperCase();

@@ -91,21 +91,18 @@ if(intro){
     while(guessForQuestion7 > 0 && !yourGuessStatus){
         var yourGuess = prompt('Guess a place I haved lived in only name states or countrys.').toUpperCase();
         console.log(yourGuess);
-        guessForQuestion7--;
         for(var i=0; i < myHome.length; i++){
             if(yourGuess === myHome[i]){
                 alert('You guessed correct.');
                 yourGuessStatus = true;
-                break;
             }
-            else if(i === myHome[myHome.length - 1] && guessForQuestion7 > 0){
+        }
+        guessForQuestion7--;
+        if(guessForQuestion7 > 0 && !yourGuessStatus ){
                 alert('Please try again you have ' + guessForQuestion7 + ' tries left');
-                yourGuess = prompt('You have '+ guessForQuestion7 + ' tires left.');
-                guessForQuestion7--;
             }
             if(guessForQuestion7 === 0){
                 alert('Your out of guesses.');
             }
         }   
     }
-}
